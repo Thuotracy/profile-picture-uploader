@@ -12,3 +12,10 @@ body{
     height: 100vh;
     width: 100%;
 }
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
