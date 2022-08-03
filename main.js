@@ -18,3 +18,10 @@ imgDiv.addEventListener('mouseleave', function(){
 
 });
 
+// lets work for the image showing functionality when we choose an image to upload
+
+// when we choose a photo to upload
+
+file.addEventListener('change', function(){
+    const choosenFile = this.files[0];
+})
