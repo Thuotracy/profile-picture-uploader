@@ -24,4 +24,13 @@ imgDiv.addEventListener('mouseleave', function(){
 
 file.addEventListener('change', function(){
     const choosenFile = this.files[0];
+
+    if (choosenFile) {
+        const reader = new FileReader();
+        reader.addEventListener('load', function(){
+            img.setAttribute('src', reader.result);
+        });
+
+        reader.readAsDataURL(choosenFile);
+    }
 })
