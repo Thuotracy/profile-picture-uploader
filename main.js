@@ -9,5 +9,12 @@ const uploadBtn = document.querySelector('#uploadBtn');
 // if user hover on profile div
 
 imgDiv.addEventListener('mouseenter', function(){
-    uploadBtn.getElementsByClassName.display = "block"
+    uploadBtn.style.display = "block"
 });
+
+// if we hover out from img div
+imgDiv.addEventListener('mouseleave', function(){
+    uploadBtn.style.display = "none"
+
+});
+
